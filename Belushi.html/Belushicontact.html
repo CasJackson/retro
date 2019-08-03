@@ -1,0 +1,243 @@
+<!DOCTYPE html><
+<!--
+   Name:Cas Jackson
+   Date Created: July 15,2019
+   Most recent revision:
+-->
+<html lang="en">
+   <head>
+       
+	   
+	    <script type = "text/javascript">
+		   
+		
+   document.write("")
+</script>
+
+<noscript>JavaScript is disabled, this site is best viewed with JavaScript enable.</noscript>
+         <!-- 
+            // function ()
+			 var name = document.forms["RegForm"]["Name"];               
+    var email = document.forms["RegForm"]["EMail"];    
+    var phone = document.forms["RegForm"]["Telephone"];  
+     
+	 
+	  if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+   
+    if (address.value == "")                               
+    { 
+        window.alert("Please enter your address."); 
+        name.focus(); 
+        return false; 
+    } 
+       
+    if (email.value == "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf("@", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf(".", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (phone.value == "")                           
+    { 
+        window.alert("Please enter your telephone number."); 
+        phone.focus(); 
+        return false; 
+    } 
+    
+         //-->
+      </script>      
+	   
+	   
+	   
+   <link href="restaurantStyles.css" rel= "stylesheet" type="text/css"/>
+     <body style="background-color:lightgray;">
+   <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700&display=swap" rel="stylesheet">
+     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+	  
+	  <style>
+	 body {
+	 font-family: 'Cinzel Decorative', cursive;
+	    }
+		
+	p {
+	    font-weight: bold;
+		}
+	 
+	    nav {
+    border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+			  
+			  nav .btn {
+    background-color: #5b7d87;
+    color: #fef9ff; 
+}
+
+               nav .btn:hover {
+			        font-weight: bold;
+					
+					} 
+     </style>
+    
+	   
+   
+   </head>
+	
+	
+	
+      <header>
+	<h1 align="center">Contact Me</h1>
+	  </header>
+	 
+	 <hr/>
+		  <nav>
+		    <p><a class="btn badge pill" href="belushi.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		      <a class="btn badge pill"href="menu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			    <a class="btn badge pill"href="Belushicontact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+	        <hr/>      	  
+		  </nav>
+        
+		  <h2>Information Request</h2>
+		  
+		  <div class="item">
+		     <form action="submit.html" method="POST">
+			 </div>
+			 
+			 <div class="item">
+			   <label for="firstName">Name:</label> <br />
+				<input type="text" id="firstName" name="firstName"> <br />
+				</div>
+				
+				<div class="item">
+				<label for="lastName">Email:</label><br />
+				<input type="text" id="lastName"name="lastName"><br />
+				</div>
+				
+				<div class="item">
+				   <label for="Phone">Phone:</label> <br />
+				   <input type="text" id="Phone"name="Phone"><br />
+		</div>
+
+		
+        	   
+
+                
+		<div class="item">
+		<select>
+			 
+               
+			<label for="contact">Reason for Inquiry:</label><br />
+			 <select id="contact" name="contact">
+			 <option value="default" selected>--Select One--</option>   
+			   <option value="Catering">Catering(default)</option>
+				  <option value="Private Party">Private Party</option>
+				     <option value="Feedback">Feedback</option>
+	                    <option value="Other">Other</option>
+	  </select>	
+	  
+	          </div>
+	  
+	  
+	      
+		   
+		  
+		      
+				
+		  
+            		  
+		
+			 <fieldset>
+		        <lengend>Have you been to our restaraunt:</lengend><br />
+				     
+					 <div class="item">
+					 <input type ="radio" id="choice1" name="questionnaire" value="yes">
+					   <label for="choice1">yes</label><br />
+					      </div>
+						  
+						  <div class="item">
+						  <input type="radio" id="choice2" name="questionnaire" value="no">
+                             <label for="choice2">No</label><br />
+		                   </div>
+			 </fieldset>
+			
+		<fieldset>
+           <legend>Best days to contact you:(check all that apply)</legend><br />
+             <form>
+			  <div class="item">
+			 <input type="checkbox" id="M" name="interest" value="M">
+                <label for="M">M</label><br />
+                  </div>
+				  
+				    <div class="item">
+				  <input type="checkbox" id="T" name="interest" value="T">
+				     <label for="T">T</label><br/>
+					   </div>
+					   
+					   <div class="item">
+					   <input type="checkbox" id="W" name="interest" value="W">
+					     <label for="W">W</label><br />
+						 </div>
+						 
+						 <div class="item">
+						  <input type="checkbox" id="TH" name="interest" value="TH">
+					     <label for="TH">TH</label><br />
+						 </div>
+						    
+							<div class="item">
+						  <input type="checkbox" id="F" name="interest" value="F">
+					     <label for="F">F</label><br />
+						 </div>
+						</form> 
+						 
+		</fieldset>
+		
+	 
+	 <hr>
+	 
+   </head>
+   
+     <body>
+	
+		 
+		  
+		  
+		  <footer>
+		      <fieldset>
+		     <Legend>Additional Information</Legend><br/>
+		     
+		       
+			   
+			</fieldset>   
+                <label for="info">Reason for Inquiry</label><br/>
+                    <textarea id="info" name="></textarea>
+                       <input type="submit" name="submit"value="Submit">
+					
+		   <nav>
+		  
+		  </nav>
+		  </footer>
+	  </body>
+</html>
