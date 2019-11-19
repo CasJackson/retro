@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+0,Amir,IN,6.00,carpet,1000,2.25,2.10,2250.00,2100.00,261.00,4611.00
+1,Florida,OH,6.25,wood,10000,5.15,4.75,51500.00,47500.00,6187.50,105187.50

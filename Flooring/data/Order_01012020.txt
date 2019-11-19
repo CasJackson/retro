@@ -1,0 +1,5 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,bob4,IN,6.00,Tile,1000,3.50,4.15,3500.00,4150.00,459.00,8109.00
+2,bob3,OH,6.25,Wood,100,5.15,4.75,515.00,475.00,61.88,1051.88
+3,,OH,6.25,Wood,100,5.15,4.75,515.00,475.00,61.88,1051.88
+4,bob,OH,6.25,Wood,1,5.15,4.75,5.15,4.75,0.62,10.52
