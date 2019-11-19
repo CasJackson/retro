@@ -1,0 +1,15 @@
+com/sg/Superhero/Model/EditHeroVM.class
+com/sg/Superhero/Controllers/HomeController.class
+com/sg/Superhero/Repository/PowerRepository.class
+com/sg/Superhero/Repository/LocationRepository.class
+com/sg/Superhero/Repository/SightingRepository.class
+com/sg/Superhero/Model/Organization.class
+com/sg/Superhero/Service/Service.class
+com/sg/Superhero/Repository/OrganizationRepository.class
+com/sg/Superhero/Model/Power.class
+com/sg/Superhero/SuperheroApplication.class
+com/sg/Superhero/Model/Location.class
+com/sg/Superhero/Service/ServiceImpl.class
+com/sg/Superhero/Model/Hero.class
+com/sg/Superhero/Repository/HeroRepository.class
+com/sg/Superhero/Model/Sighting.class

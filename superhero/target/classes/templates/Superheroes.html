@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <title>Superhero</title>
+        <style>
+            #body {
+                background-image: url("https://www.istockphoto.com/photo/business-superhero-mixed-media-gm864626280-143472981");
+                font-family: Verdana;
+                overflow: auto;
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size:cover;       
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row m-4">
+                <div class="col text-center border border-dark">
+                    <h1><a href="/" class="text-dark">Superheroes</a></h1>
+                </div>
+            </div>
+            <div class="row m-4 border border-dark">
+                <div class="col text-center m-3">
+                    <a href="/" class="btn btn-outline-primary btn-lg">Home</a>
+                </div>
+                <div class="col text-center m-3">
+                    <a href="Superpowers" class="btn btn-outline-primary btn-lg">Superpowers</a>
+                </div>
+                <div class="col text-center m-3">
+                    <a href="Organizations" class="btn btn-outline-primary btn-lg">Organizations</a>
+                </div>
+                <div class="col text-center m-3">
+                    <a href="Locations" class="btn btn-outline-primary btn-lg">Locations</a>
+                </div>
+                <div class="col text-center m-3">
+                    <a href="Sightings" class="btn btn-outline-primary btn-lg">Sightings</a>
+                </div>
+            </div>
+            <div class="row m-4 border border-dark">
+                <div class="col-3 text-center m-3">
+                    <span class="h3">Add Hero</span>
+                </div>
+                <div class="col-7 text-center m-3">
+                    <form action="addHero" method="POST">
+
+
+                        <div class="form-group row">
+                            <label for="Name" class="col-3 col-form-label">
+                                Name</label>
+                            <div class="col-9">
+                                <input type="text" name="name"
+                                       id="name"  class="form-control" > 
+<!--                                <div th:if="${#fields.hasErrors('hero.name')}">    th:value="${hero.name}"/>
+                                    <p th:each="error : ${#fields.errors('hero.name')}" 
+                                       class="alert alert-danger" th:text="${error}"> Bad Name </p>
+                                </div>-->
+
+
+                            </div>
+                        </div>
+
+
+
+                        <img src=""
+
+
+                             <div class="form-group row">
+                            <label for="Power" class="col-3 col-form-label">
+                                Power</label>
+                            <div class="col-9">
+                               
+                                <select id="power.powerId" name="power.powerId" class="form-control">
+                                    <option th:each="power : ${powers}"
+                                            th:value="${power.powerId}"
+                                            th:text="${power.name}" 
+                                            ></option>
+
+                                </select>
+                            </div>
+                        </div>
+
+
+              
+
+
+                        <div class="form-group row">
+                            <label for="Description" class="col-3 col-form-label">
+                                Description</label>
+                            <div class="col-9">
+                                <input type="text" name="Description" 
+                                       id="description" class="form-control"/>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Add Hero</button>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <div class="row m-4 border border-dark">
+                <div class="col text-center m-3">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Power</th>
+                                <th>Description</th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="hero : ${heroes}">
+                                <td th:text="${hero.heroId}">Hero ID</td>
+                                <td th:text="${hero.name}">Hero Name</td>
+                                 <td th:text="${hero.power.name}">Hero Power</td>
+                                <td th:text="${hero.description}">Description</td>
+                                <td><a href="#" th:href="@{/editHero/{id}(id=${hero.heroId})}">Edit</a></td>
+                                
+                                <td><a href="#" th:href="@{/deleteHero(id=${hero.heroId})}">Delete</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>;
+
