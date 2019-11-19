@@ -1,0 +1,67 @@
+   loadCash();
+    $('#add-button').click(function (event) {
+        $.ajax({
+            type: 'GET',
+
+            url: ' http://tsg-vending.herokuapp.com/items',
+            data: JSON.stringify({
+                Dollar: $('#add-Dollar').val(),
+                Qaurter: $('#add-Qaurter').val(),
+                Dime: $('#add-Dime').val(),
+                Nickel: $('#add-Nickel').val(),
+
+            }),
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            success: function () {
+                $('#errorMessages').empty();
+                $('#add-Dollar').val('');
+                $('#add-Qaurter').val('');
+                $('#add-Dime').val('');
+                $('#add-Nickel').val('');
+
+
+                loadCash();
+
+            },
+            error: function () {
+                $('#errorMessages')
+
+            }
+
+        });
+
+    })
+});
+
+
+function loadCash() {
+    clearForm();
+    var contentRows = $('#display')
+    $.ajax({
+        Type: 'GET',
+        url: 'http://tsg-vending.herokuapp.com',
+        success: function () {
+
+
+
+        },
+        error: function (a, b, c) {
+            $('#errorMessages')
+
+        }
+
+    });
+}
+
+function clearForm() {
+    $('#display').empty();
+}
+
+var totalAmount = 0;
+function addMoney(amount) {
+    totalAmount = amount + totalAmount
+    $('#display').val(totalAmount);
+}

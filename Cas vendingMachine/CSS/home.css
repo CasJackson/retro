@@ -1,0 +1,198 @@
+body {
+    background-color: rgb(133, 152, 175);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+#Snickers {
+    color: black;
+
+}
+
+#1 {
+    border-radius: 20px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+#MM {
+    color: black;
+
+}
+
+#box2 {
+    border-radius: 20px;
+    float: left;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+#Pringles {
+    color: black;
+
+}
+
+#box3 {
+    border-radius: 20px;
+    float: left;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+#Reeses {
+    color: black;
+
+}
+
+#box4 {
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+#Pretzels {
+    color: black;
+
+}
+
+#box5 {
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+#Twinkies {
+    color: black;
+
+}
+
+#box6 {
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+#Doritos {
+    color: black;
+
+}
+
+#box7 {
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+#Almond Joy {
+    color: black;
+
+}
+
+#box8 {
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+#Trident {
+    color: black;
+
+}
+
+#box9 {
+    border-radius: 20px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px solid linen;
+}
+
+.form-inline {
+    float: right;
+    margin-left: 25px;
+}
+
+#MakePurchase {
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+    background-color: aquamarine;
+
+}
+
+.btn {
+    border: 3px solid black;
+    background-color: aquamarine;
+}
+
+.well {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+#display {
+    margin-top: 25px;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+}
