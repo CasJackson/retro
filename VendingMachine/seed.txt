@@ -1,0 +1,4 @@
+1::Skittles::1.25::10
+2::Snickers::1.00::13
+3::Crunch::1.00::11
+4::Starburst::1.25::14

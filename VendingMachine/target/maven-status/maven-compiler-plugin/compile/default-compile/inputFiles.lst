@@ -1,0 +1,17 @@
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/Service/InvalidIdException.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/Service/VMServiceLayerImpl.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/App.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/Service/ServiceLayerException.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/ui/VMUserIOConsoleImpl.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/dto/VMItems.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/Service/OutOfStockException.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/controller/VMcontroller.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/dao/VMDao.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/ui/VMview.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/dao/AlwaysFailDao.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/dto/Change.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/dao/VMDaoFileImpl.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/Service/InsufficientFundsException.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/Service/VMServiceLayer.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/dao/VMDaoException.java
+/home/cas/Desktop/java-mlps-0819-CasJackson/Summatives/VendingMachine/src/main/java/com/mycompany/vendingmachine/ui/UserIO.java

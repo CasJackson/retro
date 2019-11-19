@@ -1,0 +1,17 @@
+com/mycompany/vendingmachine/Service/InsufficientFundsException.class
+com/mycompany/vendingmachine/dao/VMDaoFileImpl.class
+com/mycompany/vendingmachine/App.class
+com/mycompany/vendingmachine/ui/VMview.class
+com/mycompany/vendingmachine/ui/VMUserIOConsoleImpl.class
+com/mycompany/vendingmachine/dto/Change.class
+com/mycompany/vendingmachine/Service/OutOfStockException.class
+com/mycompany/vendingmachine/Service/VMServiceLayerImpl.class
+com/mycompany/vendingmachine/Service/ServiceLayerException.class
+com/mycompany/vendingmachine/Service/VMServiceLayer.class
+com/mycompany/vendingmachine/Service/InvalidIdException.class
+com/mycompany/vendingmachine/dao/AlwaysFailDao.class
+com/mycompany/vendingmachine/dao/VMDao.class
+com/mycompany/vendingmachine/dao/VMDaoException.class
+com/mycompany/vendingmachine/ui/UserIO.class
+com/mycompany/vendingmachine/dto/VMItems.class
+com/mycompany/vendingmachine/controller/VMcontroller.class

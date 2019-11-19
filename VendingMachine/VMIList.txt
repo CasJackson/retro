@@ -1,0 +1,7 @@
+5::Sprite::1.50::15
+6::Water::1.25::10
+2::Snickers::1.00::13
+4::Crunch::1.00::11
+3::Starburst::1.25::14
+7::Skittles::1.25::14
+1::Hershey::1.00::0
